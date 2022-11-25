@@ -1,0 +1,16 @@
+name: "IPFS Daemon"
+description: "My first real add-on!"
+version: "1.1.0"
+slug: "ipfs-daemon"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+ports:
+  8080/tcp: 8080 
+  5001/tcp: 5001
+  4001/tcp: 4001
+  4001/udp: 4001
