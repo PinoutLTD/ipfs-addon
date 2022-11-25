@@ -1,5 +1,5 @@
 name: "IPFS Daemon"
-description: "Add-on tu run IPFS Daemon"
+description: "Add-on to run IPFS Daemon"
 version: "1.1.0"
 slug: "ipfs-daemon"
 init: false
