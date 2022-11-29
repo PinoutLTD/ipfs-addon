@@ -14,6 +14,6 @@ Or
 3) Press on three dots in the upper right corner and chose `Repositories`.
 4) Paste following link and press `Add`.
 ```
-https://github.com/LoSk-p/ipfs-addon
+https://github.com/airalab/ipfs-addon
 ```
 5) Close repository manager and refresh the page. After that you IPFS Add-on in the end of the page.
