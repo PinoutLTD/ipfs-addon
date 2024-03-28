@@ -1,16 +1,12 @@
 name: "IPFS Daemon"
 description: "Add-on to run IPFS Daemon"
-version: "1.2.0"
+version: "1.3.0"
 slug: "ipfs-daemon"
 init: false
+host_network: true
 arch:
   - aarch64
   - amd64
   - armhf
   - armv7
   - i386
-ports:
-  8080/tcp: 8080 
-  5001/tcp: 5001
-  4001/tcp: 4001
-  4001/udp: 4001
