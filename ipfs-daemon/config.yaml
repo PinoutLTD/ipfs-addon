@@ -11,3 +11,5 @@ arch:
   - armhf
   - armv7
   - i386
+ports:
+  8080/tcp: 8080
