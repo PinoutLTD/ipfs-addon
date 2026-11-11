@@ -1,0 +1,5 @@
+# Alpine 3.22 base: the release that ships kubo 0.35. The floating :latest base moved to
+# Alpine 3.23 (kubo 0.39), and the pinned package revision 0.35.0-r3 is gone from 3.22.
+build_from:
+  aarch64: ghcr.io/home-assistant/aarch64-base:3.22
+  amd64: ghcr.io/home-assistant/amd64-base:3.22
