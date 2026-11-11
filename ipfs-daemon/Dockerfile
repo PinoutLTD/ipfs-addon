@@ -4,7 +4,7 @@ USER root
 
 WORKDIR /
 
-RUN apk add --no-cache kubo=0.35.0-r3
+RUN apk add --no-cache "kubo~0.35.0"
 
 RUN ipfs init -p local-discovery
 RUN ipfs bootstrap add /dns4/1.pubsub.aira.life/tcp/443/wss/ipfs/QmdfQmbmXt6sqjZyowxPUsmvBsgSGQjm4VXrV7WGy62dv8
